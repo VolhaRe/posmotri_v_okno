@@ -11,12 +11,14 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: auto;
+  
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1,
@@ -44,6 +46,7 @@ ol {
   display: flex;
   gap: 30px;
   align-items: flex-end;
+ 
   padding: 133px 30px 133px 30px;
 }
 
