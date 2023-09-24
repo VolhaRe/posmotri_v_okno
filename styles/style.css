@@ -222,8 +222,7 @@ input[type='checkbox']:checked ~ .search-form__pseudo-checkbox::before {
 }
 
 .content__video-card:focus {
-  outline: none;
-  border: 1px solid white;
+  outline: 1px solid white;
 }
 
 .search-form__fieldset {
